@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<center>
+  <font style="font-size: 40px;color: red;font-family: 楷体" >学生课绩管理系统</font>
+  <form action="/myWeb/login" method="post">
+    <table border="1" style="width: 500px;height: 180px">
+      <tr >
+        <td colspan="2" align="center"><font style="font-family: 楷体;font-size: 20px">请你输入</font></td>
+      </tr>
+      <tr>
+        <td align="center">用户：</td>
+        <td>
+          <input type="radio" name="user" value="student"><font style="font-family: 楷体">学生</font>
+          <input type="radio" name="user" value="teacher"><font style="font-family: 楷体">教师</font>
+          <input type="radio" name="user" value="admin"><font style="font-family: 楷体">管理员</font>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">登录名：</td>
+        <td><input type="text" name="Id" /></td>
+      </tr>
+      <tr>
+        <td align="center">密码：</td>
+        <td><input type="password" name="password" /></td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center">
+          <input type="submit" value="确认登录">&nbsp;&nbsp;&nbsp;
+          <input type="reset" value="取消登录">
+        </td>
+      </tr>
+    </table>
+  </form>
+</center>
+</body>
+</html>
